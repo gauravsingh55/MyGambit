@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Gambit</string>
+    <string name="title_activity_game_screen_activitiy">GameScreenActivitiy</string>
+</resources>

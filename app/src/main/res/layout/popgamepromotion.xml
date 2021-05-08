@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/horBar1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arvo"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Promotion"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/horBar1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/queenP"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/horBar2"
+            android:layout_marginRight="15dp"
+            android:background="#c0c0c0"
+            android:fontFamily="@font/arvo"
+            android:text="queen"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/rookP"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/horBar2"
+            android:background="#c0c0c0"
+            android:fontFamily="@font/arvo"
+            android:text="rook"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/knightP"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/horBar2"
+            android:layout_marginRight="15dp"
+            android:background="#c0c0c0"
+            android:fontFamily="@font/arvo"
+            android:text="knight"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/bishopP"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/horBar2"
+            android:background="#c0c0c0"
+            android:fontFamily="@font/arvo"
+            android:text="Bishop"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/arvo"
+        android:text="Exit"
+        android:textSize="15sp" />
+
+</RelativeLayout>
